@@ -5,13 +5,13 @@
 REV=1
 
 # Location of img files (must be unzipped)
-SOURCE=./img
+SOURCE=/opt/img/
 
 # Destination directory where modified images are stored
-DEST=./dest
+DEST=/opt/dist/
 
 # Directory to mount source/destination files
-MNT=./mnt
+MNT=/tmp/mnt
 
 # Location of Cluster HAT files on target imagees
 CONFIGDIR="/usr/share/clusterhat"
